@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-<!-- TODO créer un dossier img/ pour les images -->
 <head>
     <!-- Jeu de caractères utilisé pour l'encodage du fichier HTML -->
     <meta charset="UTF-8">
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titre de la page -->
-    <title>Mon CV</title> <!-- TODO mettre nom et prénom -->
+    <title>Mon CV | Chris Sprunger</title>
     <!-- Auteur -->
     <meta name="author" content="Chris Sprunger">
     <!-- Description de la page -->
@@ -26,17 +25,14 @@
 </head>
 <body>
   <header>
-      <!-- TODO mettre image dans un lien qui ouvre l'image -->
-      <img src=./home.png alt="logo de maison">
-    
+      <a href=".home.png"><img src=./home.png alt="logo de maison" ></a>
     <nav>
         <ul class="menu">
             <li>
-                <!-- TODO éviter majuscules et caractères spéciaux dans url, id et class -->
-                <a href="#Compétence">Mes compétences</a>
+                <a href="#competence">Mes compétences</a>
             </li>
              <li>
-                <a href="#Formation">Ma formation</a>
+                <a href="#formation">Ma formation</a>
             </li>
         </ul>
     </nav>
@@ -44,21 +40,19 @@
   <main>
     <h1>Chris Sprunger</h1>
     <p>Aprenti en section informatique</p>
-    <!-- TODO aérer avec une ligne vide avant les h2 -->
-    <!-- TODO éviter majuscules et caractères spéciaux dans url, id et class -->
-    <h2 id="Compétence">Mes compétence</h2>
+    
+    <h2 id="competence">Mes compétence</h2>
     <ul>
         <li>Base en CPP</li>
         <li>Base en HTML</li>
     </ul>
-      <!-- indenter correctement -->
-      <!-- TODO éviter majuscules et caractères spéciaux dans url, id et class -->
-      <h2 id="Formation">Ma formation</h2>
-      <ol>
-          <li>Ecole primaire 2013-2021</li>
-          <li>Ecole secondaire 2021-2024</li>
-          <li>Ecole des métiers technique en section informatique 2024-...</li>
-      </ol>
+    
+    <h2 id="formation">Ma formation</h2>
+    <ol>
+        <li>Ecole primaire 2013-2021</li>
+        <li>Ecole secondaire 2021-2024</li>
+        <li>Ecole des métiers technique en section informatique 2024-...</li>
+    </ol>
   </main>
   <footer>
     &copy;2024 Chris Sprunger / 
