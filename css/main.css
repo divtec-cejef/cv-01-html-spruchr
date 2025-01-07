@@ -21,6 +21,7 @@ img {
 a {
     color: deeppink;
     text-decoration: none;
+    font-size: 1,5em;
 }
 
 a:hover {
@@ -30,8 +31,10 @@ a:hover {
 
 ul {
   list-style-position: inside;
+  font-size: 1,3rem
 }
 
 ol {
   list-style-position: inside;
+  font-size: 26px;
 }
