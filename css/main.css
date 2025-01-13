@@ -22,6 +22,14 @@ body {
     width:800px;
 }
 
+.roboto-a {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 nav ul {
     border:5px solid darkblue;
     text-shadow: 2px 2px 5px orange;
